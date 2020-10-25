@@ -4,7 +4,7 @@
   "description": "Düzenli olarak burada her değişikliği kaydetmek istiyorum. Bakalım ne kadar başarılı olacağım.\r Burada server uygulaması yapacağım yada yapmaya çalışacağım.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node"
+    "start": "cross-env NODE_PATH=src nodemon src/index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
