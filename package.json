@@ -1,0 +1,29 @@
+{
+  "name": "MsServer",
+  "version": "1.0.0",
+  "description": "Düzenli olarak burada her değişikliği kaydetmek istiyorum. Bakalım ne kadar başarılı olacağım.\r Burada server uygulaması yapacağım yada yapmaya çalışacağım.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trunday/responsiveTest-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trunday/responsiveTest-Server/issues"
+  },
+  "homepage": "https://github.com/Trunday/responsiveTest-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "nodemon": "^2.0.6"
+  }
+}
